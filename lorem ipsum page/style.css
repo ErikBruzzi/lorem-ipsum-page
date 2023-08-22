@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(39, 37, 37);
+
+}
+
+.center{
+    max-width: 1100px;
+    margin:0 auto;
+    padding:0 2%;
+    display: flex;
+    font-family: 'Lugrasimo', cursive;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 3px solid rgb(255, 230, 0);
+    padding:30px 0;
+    width: 100%;
+}
+
+.logo {
+    font-size: 50px;
+    margin-left: 390px;
+    color: #ffee00;
+}
+/*
+.menu {
+    text-align: right;
+    width: 80%;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 30px;
+}
+*/
+
+.p-titulo{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 57px;
+    color: rgb(255, 255, 255);
+    font-family: 'Yeseva One', cursive;
+
+}
+
+.p-paragrafo{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 200px 0px 200px;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+    font-family: 'Yeseva One', cursive;
+}
+
+.video{
+    margin-top: 30px;
+    padding-left: 330px;
+}
+
+.btnClique{
+    margin-left: 39.43%;
+    margin-top: 20px;
+    background-color: #ffee00;
+    border-radius: 15px;
+    width: 350px;
+    height: 50px;
+    border: none;
+}
+
+.btnClique:hover{
+    cursor: pointer;
+}
+
+/* criar um css de estilizacão para linkar com o javascript e atuar em react */
